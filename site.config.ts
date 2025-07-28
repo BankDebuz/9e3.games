@@ -18,8 +18,9 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'bankdebuz',
-  github: 'bankdebuz',
+  //github: 'bankdebuz',
   linkedin: 'bankdebuz',
+  facebook: 'bankdebuz',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -50,16 +51,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '23d7b436d945811c9a4fe33b97df7865'//https://www.notion.so/About-23d7b436d945811c9a4fe33b97df7865?source=copy_link
+    },
+    {
+      title: 'Contact',
+      pageId: '23d7b436d94581f7967fe3b942c642b7'//https://www.notion.so/Contact-23d7b436d94581f7967fe3b942c642b7?source=copy_link
+    }
+  ]
 })

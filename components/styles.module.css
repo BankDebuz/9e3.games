@@ -95,6 +95,10 @@
   color: #2795e9;
 }
 
+.facebook:hover {
+  color: #1877F2;
+}
+
 .mastodon:hover {
   color: #5a4be1;
 }

@@ -3,6 +3,7 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaFacebook } from '@react-icons/all-files/fa/FaFacebook'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -65,7 +66,17 @@ export function FooterImpl() {
             <FaTwitter />
           </a>
         )}
-
+        {config.facebook && (
+          <a
+            className={styles.facebook}
+            href={`https://facebook.com/${config.facebook}`}
+            title={`Facebook @${config.facebook}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaFacebook />
+          </a>
+        )}
         {config.mastodon && (
           <a
             className={styles.mastodon}
