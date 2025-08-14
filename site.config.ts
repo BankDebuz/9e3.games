@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'BankDebuz - My Live is Game',
-  domain: '9e3.games',
+  domain: 'bankdebuz.me',
   author: 'bankdebuz',
 
   // open graph metadata (optional)
