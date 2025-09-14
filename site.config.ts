@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'bankdebuz',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'เว็บไซต์ส่วนตัวของ สิทธิชัย เทพไพฑูรย์ พื้นที่แบ่งปันความรู้ ประสบการณ์ และมุมมองต่อวงการเกมและดิจิทัลคอนเทนต์ไทย สำหรับผู้พัฒนาเกม ผู้ประกอบการ และผู้ที่สนใจ',
 
   // social usernames (optional)
   twitter: 'bankdebuz',
@@ -60,7 +60,8 @@ export default siteConfig({
     },
     {
       title: 'Contact',
-      pageId: '23d7b436d94581f7967fe3b942c642b7'//https://www.notion.so/Contact-23d7b436d94581f7967fe3b942c642b7?source=copy_link
+      url: 'https://linktr.ee/bankdebuz'
+      //pageId: '23d7b436d94581f7967fe3b942c642b7'//https://www.notion.so/Contact-23d7b436d94581f7967fe3b942c642b7?source=copy_link
     }
   ]
 })
